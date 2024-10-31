@@ -3,5 +3,6 @@
 
 void is_palindrome(int num);
 void prime_numbers(int num);
+void is_leap_year(int n);
 
 #endif

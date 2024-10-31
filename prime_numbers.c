@@ -17,7 +17,7 @@ void prime_numbers(int n) {
             }
         }
         if (is_prime) {
-            printf("%d ", num);
+            printf("%d\n", num);
         }
     }
     printf("\n");

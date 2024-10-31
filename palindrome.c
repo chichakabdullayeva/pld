@@ -1,20 +1,9 @@
 #include <stdio.h>
 
-void is_palindrome(int num);
-
-int main()
-{
-	int num;
-	printf("Enter a number to check if its a palindrome: ");
-	scanf("%d", &num);
-	is_palindrome(num);
-	return 0;
-}
-
 void is_palindrome(int num)
 {
 	int reversed, remainder, original;
-	original = num`;
+	original = num;
 
 	while (num != 0)
 	{
